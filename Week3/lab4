@@ -1,0 +1,17 @@
+public class lab4 {
+    public static void main(String[] args) {
+
+        int[] scores = {85, 90, 78, 92, 88}; // student's scores
+        int sum = 0;
+
+        // calculate sum
+        for (int i = 0; i < scores.length; i++) {
+            sum += scores[i];
+        }
+
+        // calculate average
+        double average = (double) sum / scores.length;
+
+        System.out.println("Average score = " + average);
+    }
+}
